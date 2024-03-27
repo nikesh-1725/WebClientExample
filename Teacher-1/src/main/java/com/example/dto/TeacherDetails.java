@@ -1,8 +1,6 @@
 package com.example.dto;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -17,9 +15,8 @@ import lombok.NoArgsConstructor;
 public class TeacherDetails {
 	
 	@Id
-	@GeneratedValue(strategy= GenerationType.AUTO)
-	private int id;
-	private String name;
-	private String schoolName;
-	private String salary;
+	private int t_id;
+	private String t_name;
+	private String t_schoolName;
+	//private String t_course;
 }

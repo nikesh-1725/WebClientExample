@@ -1,0 +1,50 @@
+			// response.forEach(u -> System.out.println(u));
+//			
+		}
+		// System.out.println("====" + teacherDetails);
+		
+		/*
+		 * ObjectMapper objectMapper = new ObjectMapper(); String jsonArray =
+		 * objectMapper.writeValueAsString(response);
+		 */
+		//List<String> list=Arrays.asList("[\"Teacher Name: Anil , Member name: NaveenMember , Member id: 2\",\"Teacher Name: Anil , Member name: RameshMember , Member id: 4\"]");
+		
+		/*
+		 * JSONArray jsonArray = new JSONArray(response); System.out.println(jsonArray);
+		 * 
+		 * 
+		 * 
+		 * List<String> list = new ArrayList<>();
+		 * 
+		 * for (int i = 0; i < jsonArray.length(); i++) {
+		 * list.add(jsonArray.getString(i)); }
+		 * 
+		 * System.out.println();
+		 */
+		  
+		  
+		  Map<String, Object> result = new HashMap<>();
+		  
+			/*
+			 * result.put(courseName, response);
+			 * 
+			 * System.out.println("Before the result no changed: "+result);
+			 * 
+			 * 
+			 * 
+			 * String jsonArrayString = new JSONArray(response).toString();
+			 * System.out.println("JsonArrayString: "+jsonArrayString);
+			 * 
+			 * // Create a JSON array containing the JSON array string JSONArray jsonArray =
+			 * new JSONArray(); jsonArray.put(jsonArrayString);
+			 * 
+			 * // Update the result map with the JSON array result.put(courseName,
+			 * jsonArray); System.out.println(result);
+			 */
+		
+
+		/*
+		 * List<TeacherDetails> teacherDetails = webClient.get().uri(restUrl +
+		 * repo.findIdByName(name)).retrieve()
+		 * .bodyToFlux(TeacherDetails.class).collectList().block();
+		 */

@@ -1,6 +1,7 @@
 package com.example.entity;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,7 +16,9 @@ import lombok.ToString;
 @AllArgsConstructor
 public class Member {
 	
-	int id;
-	String name;
-	String department;
+	@Id
+	int m_id;
+	String m_name;
+	//String m_course;
+	String tm_name;
 }
